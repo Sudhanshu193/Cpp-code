@@ -21,9 +21,10 @@ int main()
     {
         name[i]=&arr[i];
     }
+    cout <<"the names are: ";
     for (int i = 0; i < 4; i++)
     {
-        cout<<"the names are: "<<*name[i]<<endl;
+        cout<<*name[i]<<endl;
     }
    return 0; 
 }

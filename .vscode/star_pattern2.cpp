@@ -7,7 +7,7 @@ int main()
     {
         for ( j = 0; j < 6; j++)
         {
-          if (i+j>5)
+          if (i+j>=5)
           {
             cout <<"*";
           }
