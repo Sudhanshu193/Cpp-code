@@ -1,13 +1,11 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
-    {
-        int n;
-        cout << "enter the number n: "<<endl;
-        cin >>n;
-        for (int i = 1; i <=10; i++)
-        {
-            cout<<n<<"X"<<i<<"="<<n*i<<endl;
-        }
-        
-    }
+{
+  int A[]={2,3,4,4,8};
+  for (int i:A)
+  {
+    cout <<A[i]<<endl;
+  }
+  return 0;
+}
