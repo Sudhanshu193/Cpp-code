@@ -18,8 +18,8 @@ class Dog : public Animal
 };
 int main()
 {
-    Animal a;
-     a.display();
+    // Animal a;
+    //  a.display();
      Dog d;
      d.display();
      //if in dog we give parameter to display (int x) and want to d.display() like this it will not work.

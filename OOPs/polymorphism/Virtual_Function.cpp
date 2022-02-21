@@ -17,7 +17,7 @@ class derived : public base
 };
 
 int main()
-{
+{    
     base *p= new derived();
     p->fun(); 
 }
