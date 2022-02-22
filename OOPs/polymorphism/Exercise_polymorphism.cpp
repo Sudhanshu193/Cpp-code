@@ -7,7 +7,7 @@ class shape{
     virtual float area()=0;
     virtual float perimeter()=0;
 };
-class rectangle  : public shape
+class ectangle  : public shape
 {
     private :
      int length ;
