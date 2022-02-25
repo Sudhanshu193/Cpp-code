@@ -4,13 +4,13 @@ int main()
 {
     int m,n;
     cout << "Enter the number";
-    cin >>m ,  n;
+    cin >>m >> n;
     while (m!=n)
     {
         if(m>n)
         
             m=m-n;
-        else if(n>m)
+        else
             n=n-m;
     }
     cout << "The GCD is: "<< m;
