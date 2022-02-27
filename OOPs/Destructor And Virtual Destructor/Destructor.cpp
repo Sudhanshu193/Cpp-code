@@ -5,7 +5,7 @@ class Test
     public:
     Test ()
     {
-        cout <<"constructor is called"<<endl;
+        cout <<"constructor is called"<<endl; 
     }
 
     ~Test()
