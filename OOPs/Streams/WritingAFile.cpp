@@ -3,9 +3,9 @@
 using namespace std;
 int main()
 {
-  ofstream ofs("My.txt");
-  ofs<<"Sudhanshu"<<endl;
-  ofs<<25<<endl;
-  ofs<<"cs"<<endl;
-   ofs.close();
+  ofstream of("My.txt");
+  of<<"Sudhanshu"<<endl;
+  of<<25<<endl;
+  of<<"cs"<<endl;
+   of.close();
 }
