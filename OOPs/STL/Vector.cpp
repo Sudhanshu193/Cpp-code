@@ -18,5 +18,7 @@ int main()
     for(itr=v.begin() ; itr!=v.end() ; itr++)
     {
         cout<<*itr<<endl;
+        cout<<++*itr<<endl;
+        cout<<2+*itr<<endl;
     }
 }
