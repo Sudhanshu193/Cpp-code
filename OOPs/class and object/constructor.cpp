@@ -4,7 +4,8 @@ using namespace std;
 class Rectangle
 {
     private:
-    int length ,breadth;
+    int length ;
+    int breadth;
     public:
     //non perimeterized constructor
    /* Rectangle()
