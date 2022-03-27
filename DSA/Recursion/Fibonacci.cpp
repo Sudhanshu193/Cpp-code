@@ -19,7 +19,7 @@ int fabo(int n)
 int main()
 {
     int n;
-    cout << "Enter the number: " <<endl;
+    cout << "Enter the number you want fabonaci of : " <<endl;
     cin >> n;
    cout << fabo(n);
 
