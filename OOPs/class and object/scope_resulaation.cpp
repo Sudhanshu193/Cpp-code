@@ -24,7 +24,7 @@ public:
     bool issquare();
     ~Rectangle();
 };
-
+//scope_resulation is used to write method outside class & through this we can access other members as well.
 Rectangle::Rectangle()
 {
     length=1;
