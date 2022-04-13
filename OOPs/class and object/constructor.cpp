@@ -26,6 +26,7 @@ class Rectangle
         length=rect.length;
         breadth=rect.breadth;
     }
+    //seter function
     void setLength(int l)
     {
         if (l<0)
@@ -37,6 +38,7 @@ class Rectangle
             length=l;
         } 
     }
+    //seter function,
     void setBreadth(int b)
     {
         if (b<0)
@@ -48,6 +50,7 @@ class Rectangle
             breadth=b;
         }
     }
+    //geter function
     int getLength()
     {
         return length;
