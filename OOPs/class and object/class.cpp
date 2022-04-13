@@ -16,8 +16,8 @@ class rectangle
     }
 };
 int main()
-{
-    rectangle r1,r2;
+{  
+    rectangle r1,r2; // object of class rectangle
     cout<<"Enter the area of rectangle r1"<<endl;
      
     cin >>r1.length>>r1.breadth;
