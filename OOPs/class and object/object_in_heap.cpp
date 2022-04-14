@@ -11,6 +11,7 @@ class Rectangle{
 int main()
 {
   Rectangle *p;
+  //memory alloted in heap 
   p=new Rectangle();
   p->length=10;
   p->breadth=5;
