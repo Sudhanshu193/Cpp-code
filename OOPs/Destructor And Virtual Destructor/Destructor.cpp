@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
 class Test
-{
-    public:
+{  public:
+    int n;
+    
     Test ()
-    {
+    { 
+        int n;
         cout <<"constructor is called"<<endl; 
     }
 
