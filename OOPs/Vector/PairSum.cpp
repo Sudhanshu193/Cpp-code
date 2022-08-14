@@ -46,6 +46,26 @@ for(int i = 0; i < n; i++)
     
 }
 
+vector<pair<int,int>> twoSum(vector<int>& arr, int target, int n)
+{ 
+    int m = arr.size();
+	vector <pair <int , int >>v;
+    for (int i=0; i<m ; i++)
+        v.push_back({arr[i], i});
+   // sort(v.begin(), v.end());
+    int s =0; 
+    int l =m-1;
+    while(s<l)
+    {
+        int sum= arr[s]+arr[l];
+        if(sum==target)
+            return { v[s].first, v[l].first};
+        else if(sum> target)
+            l--;
+        else
+            s++;
+    }
+}
 
 
 }
